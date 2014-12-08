@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunit20Tests_AnyCPU", "Xuni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunit20Tests_x86", "Xunit20Tests_x86\Xunit20Tests_x86.csproj", "{32FB0C36-15F8-42AD-A8FD-D74190644D4B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{16FBA65C-55ED-49F8-A0B5-60922B5FCFD1}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunit20Tests_x64", "Xunit20Tests_x64\Xunit20Tests_x64.csproj", "{D9780308-1042-4E30-A0E2-389A37D1E58E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,10 @@ Global
 		{32FB0C36-15F8-42AD-A8FD-D74190644D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32FB0C36-15F8-42AD-A8FD-D74190644D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32FB0C36-15F8-42AD-A8FD-D74190644D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9780308-1042-4E30-A0E2-389A37D1E58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9780308-1042-4E30-A0E2-389A37D1E58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9780308-1042-4E30-A0E2-389A37D1E58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9780308-1042-4E30-A0E2-389A37D1E58E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
