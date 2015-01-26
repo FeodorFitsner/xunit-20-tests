@@ -2,4 +2,4 @@ before_build:
   - nuget restore
 
 test_script:
-  - %xunit20%\xunit.console.x86 "C:\projects\xunit-20-tests\Xunit20Tests_AnyCPU\bin\Debug\Xunit20Tests_AnyCPU.dll" -appveyor -notrait="CI=skip"
+  - '%xunit20%\xunit.console.x86 "C:\projects\xunit-20-tests\Xunit20Tests_AnyCPU\bin\Debug\Xunit20Tests_AnyCPU.dll" -appveyor -notrait="CI=skip"'
