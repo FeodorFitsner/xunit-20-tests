@@ -1,5 +1,6 @@
 before_build:
   - nuget restore
+  - nuget install xunit.runners -prerelease -excludeversion
 
 test_script:
-  - '%xunit20%\xunit.console.x86 "C:\projects\xunit-20-tests\Xunit20Tests_AnyCPU\bin\Debug\Xunit20Tests_AnyCPU.dll" -appveyor -notrait "CI=skip"'
+  - 'xunit.runners\tools\xunit.console.x86 "C:\projects\xunit-20-tests\Xunit20Tests_AnyCPU\bin\Debug\Xunit20Tests_AnyCPU.dll" -appveyor -notrait "CI=skip"'
