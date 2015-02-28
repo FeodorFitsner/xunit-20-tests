@@ -1,4 +1,7 @@
+cache:
+  - packages -> **\packages.config
+
 before_build:
   - nuget restore
-  - nuget install xunit.runners -prerelease -excludeversion
-  - set xunit20=%APPVEYOR_BUILD_FOLDER%\xunit.runners\tools
+#  - nuget install xunit.runners -prerelease -excludeversion
+#  - set xunit20=%APPVEYOR_BUILD_FOLDER%\xunit.runners\tools
