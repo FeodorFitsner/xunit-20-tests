@@ -8,4 +8,4 @@ before_build:
 
 test:
   assemblies:
-  - Xunit20Tests_AnyCPU
+  - Xunit20Tests_AnyCPU.dll
