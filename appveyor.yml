@@ -5,3 +5,8 @@ before_build:
   - nuget restore
 #  - nuget install xunit.runners -prerelease -excludeversion
 #  - set xunit20=%APPVEYOR_BUILD_FOLDER%\xunit.runners\tools
+
+test:
+  assemblies:
+    except:
+    - Xunit20Tests_x86.DLL

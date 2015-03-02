@@ -8,7 +8,7 @@ using Xunit;
 
 namespace Xunit20Tests_AnyCPU
 {
-    public class AnyCPU_Tests
+    public class Tests
     {
         [Fact]
         [Trait("CI", "skip")]
@@ -30,10 +30,12 @@ namespace Xunit20Tests_AnyCPU
         {
             // appSettings
             var someValue = ConfigurationManager.AppSettings["SomeValue"];
+            Console.WriteLine("SomeValue: " + someValue);
             Assert.Equal("Hello, config!", someValue);
 
             // connectionStrings
             var connString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+            Console.WriteLine("MyConnectionString: " + connString);
             Assert.Equal("Server=(local);user=John", connString);
         }
     }

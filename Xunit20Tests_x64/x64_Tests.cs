@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Xunit20Tests_AnyCPU
+namespace Tests
 {
     public class x64_Tests
     {

@@ -6,7 +6,7 @@ using Xunit;
 
 namespace xUnit_x64_Clr2
 {
-    public class Xunit20Tests_AnyCPU
+    public class Tests
     {
 
         [Fact]
