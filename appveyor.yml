@@ -6,6 +6,6 @@ before_build:
 #  - nuget install xunit.runners -prerelease -excludeversion
 #  - set xunit20=%APPVEYOR_BUILD_FOLDER%\xunit.runners\tools
 
-test:
-  assemblies:
-  - Xunit20Tests_AnyCPU.dll
+#test:
+#  assemblies:
+#  - Xunit20Tests_AnyCPU.dll
