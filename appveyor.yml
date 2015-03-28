@@ -2,7 +2,7 @@ cache:
   - packages -> **\packages.config
 
 before_build:
-  - nuget restore
+  - ps: nuget restore "$env:appveyor_build_folder\Xunit20Tests.sln"
 #  - nuget install xunit.runners -prerelease -excludeversion
 #  - set xunit20=%APPVEYOR_BUILD_FOLDER%\xunit.runners\tools
 
