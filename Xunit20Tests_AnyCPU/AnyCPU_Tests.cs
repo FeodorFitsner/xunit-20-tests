@@ -16,6 +16,9 @@ namespace Xunit20Tests_AnyCPU
         {
             var xUnit_AnyCPU_CLR2_Tests = 1;
             Assert.Equal(xUnit_AnyCPU_CLR2_Tests, 1);
+            Debug.WriteLine("Debug output");
+            Console.WriteLine("Console output");
+            Trace.TraceInformation("Trace info");            
         }
         
         [Fact]
