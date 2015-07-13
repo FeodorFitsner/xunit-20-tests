@@ -9,6 +9,12 @@ before_build:
 before_test:
   - dir C:\projects\xunit-20-tests\Xunit20Tests_AnyCPU\bin\Debug\
 
+notifications:
+  - provider: Webhook
+    url: http://requestb.in/zx6wurzx
+    on_build_success: true
+    on_build_failure: true
+
 #test:
 #  assemblies:
 #  - Xunit20Tests_AnyCPU.dll
