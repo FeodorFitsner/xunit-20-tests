@@ -1,4 +1,4 @@
-os: Visual Studio 2015 RC
+os: test
 
 cache:
   - packages -> **\packages.config
