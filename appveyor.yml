@@ -1,7 +1,9 @@
-os: test
+#os: test
+os: Visual Studio 2015 RC
 
 cache:
-  - packages -> **\packages.config
+#  - packages -> **\packages.config
+  - packages
 
 before_build:
   - ps: nuget restore "$env:appveyor_build_folder\Xunit20Tests.sln"
